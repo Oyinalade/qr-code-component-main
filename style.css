@@ -7,12 +7,13 @@
 - Dark blue: hsl(218, 44%, 22%)
 */
 
+
 @font-face {
   font-family: Outfit;
   src: url((https://fonts.google.com/specimen/Outfit));
 }
 body {
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
   height: 100vh;
 }
 .card {
@@ -30,6 +31,7 @@ body {
 }
 h1 {
   font-weight: 700;
+  color: hsl(218, 44%, 22%),
   font-family: Outfit;
   font-size: 1.5rem;
   margin: 0.625rem;
@@ -38,5 +40,6 @@ p {
   opacity: 0.5;
   margin: 0.625rem;
   font-size: 15px;
+  color: hsl(220, 15%, 55%);
 }
 
